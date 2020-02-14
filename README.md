@@ -20,13 +20,11 @@ Happy LaTeX！~
 9. **不支持** [CTeX 套装](http://www.ctex.org/CTeXDownload)编译。
 
 ### 排版样例
----------------------
-
 1. 排版样例
-![](./screenshots/00cover.png)
-![](./screenshots/01withclock.png)
-![](./screenshots/02tikzfig.png)
-![](./screenshots/03UML.png)
+![](./screenshots/00cover2.png)
+![](./screenshots/01withclock2.png)
+![](./screenshots/02tikzfig2.png)
+![](./screenshots/03UML2.png)
 
 2. 更多样例请查看"./demos"。
 
