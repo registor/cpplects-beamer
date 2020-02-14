@@ -1,0 +1,6 @@
+James 10001  CMU  600
+John  10003  Stanford 580
+John  10003  Stanford 580
+Barbara  10006 UCB 578
+Alice 10002 MIT 595
+exit

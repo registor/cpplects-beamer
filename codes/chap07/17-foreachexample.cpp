@@ -1,0 +1,38 @@
+//例07-17；ex07-17.cpp
+//容器vector的综合使用，演示c++中容器vector的综合使用实例
+#include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+void myfunction (int i)
+{
+    cout << " " << i;
+}
+
+struct myclass
+{
+    void operator() (int i)
+    {
+        cout << " " << i;
+    }
+} myobject;
+
+int main ()
+{
+    vector<int> v;
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+
+    cout << "v contains:";
+    for_each (v.begin(), v.end(), myfunction);
+
+    // or:
+    cout << "\nv contains:";
+    for_each (v.begin(), v.end(), myobject);
+
+    cout << endl;
+
+    return 0;
+}

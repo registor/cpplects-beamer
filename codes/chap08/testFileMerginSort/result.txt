@@ -1,0 +1,6 @@
+10001	James	CMU	600
+10002	Alice	MIT	595
+10003	John	Stanford	580
+10006	Barbara	UCB	578
+10007	William	Princeton	572
+10009	Susan	GIT	553

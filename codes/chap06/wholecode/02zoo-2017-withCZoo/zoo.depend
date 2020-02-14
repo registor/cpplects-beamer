@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1496787380 source:/home/registor/Desktop/testcpp/zoo/Bird.cpp
+	<iostream>
+	"Bird.h"
+
+1496787503 /home/registor/Desktop/testcpp/zoo/Bird.h
+	"Animal.h"
+
+1496787503 /home/registor/Desktop/testcpp/zoo/Animal.h
+
+1496787503 source:/home/registor/Desktop/testcpp/zoo/Horse.cpp
+	<iostream>
+	"Horse.h"
+
+1496787405 /home/registor/Desktop/testcpp/zoo/Horse.h
+	"Animal.h"
+
+1496787246 source:/home/registor/Desktop/testcpp/zoo/main.cpp
+	"Bird.h"
+	"Horse.h"
+	"Pegasus.h"
+	"Bull.h"
+
+1496787531 source:/home/registor/Desktop/testcpp/zoo/Pegasus.cpp
+	<iostream>
+	"Pegasus.h"
+
+1496787503 /home/registor/Desktop/testcpp/zoo/Pegasus.h
+	"Horse.h"
+	"Bird.h"
+
+1496787503 source:/home/registor/Desktop/testcpp/zoo/Animal.cpp
+	<iostream>
+	<cstring>
+	"Animal.h"
+
+1496786775 source:/home/registor/Desktop/testcpp/zoo/Bull.cpp
+	<iostream>
+	"Bull.h"
+
+1496787503 /home/registor/Desktop/testcpp/zoo/Bull.h
+	"Animal.h"
+
+1496788831 source:/home/registor/Desktop/testcpp/zoo/Zoo.cpp
+	"Zoo.h"
+	"Bird.h"
+	"Horse.h"
+	"Pegasus.h"
+	"Bull.h"
+
+1496788701 /home/registor/Desktop/testcpp/zoo/Zoo.h
+
+1496787503 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\animal.cpp
+	<iostream>
+	<cstring>
+	"Animal.h"
+
+1496787503 e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\animal.h
+
+1496798100 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\bird.cpp
+	<iostream>
+	<windows.h>
+	<mmsystem.h>
+	"Bird.h"
+
+1496787503 e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\bird.h
+	"Animal.h"
+
+1496798052 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\bull.cpp
+	<iostream>
+	<windows.h>
+	<mmsystem.h>
+	"Bull.h"
+
+1496787503 e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\bull.h
+	"Animal.h"
+
+1496798014 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\horse.cpp
+	<iostream>
+	<windows.h>
+	<mmsystem.h>
+	"Horse.h"
+
+1496787405 e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\horse.h
+	"Animal.h"
+
+1496787246 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\main.cpp
+	"Bird.h"
+	"Horse.h"
+	"Pegasus.h"
+	"Bull.h"
+
+1496787503 e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\pegasus.h
+	"Horse.h"
+	"Bird.h"
+
+1496798085 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\pegasus.cpp
+	<iostream>
+	<windows.h>
+	<mmsystem.h>
+	"Pegasus.h"
+
+1496788841 source:e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\zoo.cpp
+	"Zoo.h"
+	"Bird.h"
+	"Horse.h"
+	"Pegasus.h"
+	"Bull.h"
+
+1496788701 e:\2017spring\教学工作\cpp\虚函数\02zoo-2017-withczoo\zoo.h
+

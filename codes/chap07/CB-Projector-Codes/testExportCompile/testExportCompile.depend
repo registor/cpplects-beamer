@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1497232483 source:/home/registor/Desktop/testCPP/Lect07-CalssTemplate-STL/testExportCompile/main.cpp
+	<iostream>
+	"safearray.h"
+	"safearray.cpp"
+
+1497232491 /home/registor/Desktop/testCPP/Lect07-CalssTemplate-STL/testExportCompile/safearray.h
+	<iostream>
+
+1497232327 source:/home/registor/Desktop/testCPP/Lect07-CalssTemplate-STL/testExportCompile/safearray.cpp
+	"safearray.h"
+
+1497232327 /home/registor/Desktop/testCPP/Lect07-CalssTemplate-STL/testExportCompile/safearray.cpp
+	"safearray.h"
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="testTryCatch01/testTryCatch01.cbp" />
+		<Project filename="testfileexception/testfileexception.cbp" />
+		<Project filename="../../../../../../TestCPP/testexceptionpath/testexceptionpath.cbp" />
+		<Project filename="../../../../../../TestCPP/testExceptionObj/testExceptionObj.cbp" />
+		<Project filename="../../../../../../TestCPP/testbadexception/testbadexception.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

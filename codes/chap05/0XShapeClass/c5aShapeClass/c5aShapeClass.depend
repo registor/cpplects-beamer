@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1429662296 source:z:\testcpp\chap05\0xshapeclass\c5ashapeclass\donet.cpp
+	"Donet.h"
+
+1558777283 z:\testcpp\chap05\0xshapeclass\c5ashapeclass\donet.h
+	"Ellipse.h"
+
+1558777283 z:\testcpp\chap05\0xshapeclass\c5ashapeclass\ellipse.h
+	"Shape.h"
+
+1558777203 z:\testcpp\chap05\0xshapeclass\c5ashapeclass\shape.h
+	<Graph2D.h>
+	"Point2D.h"
+
+1557274493 c:\devlibs\graph2d\include\graph2d.h
+	<GL/freeglut.h>
+	<cstdio>
+	<cmath>
+
+1426320928 c:\devlibs\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1426320928 c:\devlibs\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426320928 c:\devlibs\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1429662296 z:\testcpp\chap05\0xshapeclass\c5ashapeclass\point2d.h
+	<iostream>
+	<cmath>
+
+1429662296 source:z:\testcpp\chap05\0xshapeclass\c5ashapeclass\ellipse.cpp
+	"Ellipse.h"
+
+1429662296 source:z:\testcpp\chap05\0xshapeclass\c5ashapeclass\main.cpp
+	<Graph2D.h>
+	"Shape.h"
+	"Rectangle.h"
+	"Ellipse.h"
+	"Donet.h"
+
+1558777283 z:\testcpp\chap05\0xshapeclass\c5ashapeclass\rectangle.h
+	"Shape.h"
+
+1429662296 source:z:\testcpp\chap05\0xshapeclass\c5ashapeclass\point2d.cpp
+	"Point2D.h"
+
+1429662296 source:z:\testcpp\chap05\0xshapeclass\c5ashapeclass\rectangle.cpp
+	"Rectangle.h"
+
+1429662296 source:z:\testcpp\chap05\0xshapeclass\c5ashapeclass\shape.cpp
+	"Shape.h"
+

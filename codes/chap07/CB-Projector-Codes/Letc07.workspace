@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="testFunTemplate/testFunTemplate.cbp" />
+		<Project filename="testSafeArray/testSafeArray.cbp" />
+		<Project filename="testSafeArrayFunTemplate/testSafeArrayFunTemplate.cbp" />
+		<Project filename="testSafeArrayDefault/testSafeArrayDefault.cbp" />
+		<Project filename="testStackTemplate/testStackTemplate.cbp" />
+		<Project filename="testExportCompile/testExportCompile.cbp" />
+		<Project filename="testSTLVector01/testSTLVector01.cbp" />
+		<Project filename="testSTLVector02/testSTLVector02.cbp" />
+		<Project filename="testSTLList01/testSTLList01.cbp" />
+		<Project filename="testSTLList02/testSTLList02.cbp" />
+		<Project filename="testSTLDeque01/testSTLDeque01.cbp" />
+		<Project filename="testSTLDeque02/testSTLDeque02.cbp" />
+		<Project filename="testSTLIterator/testSTLIterator.cbp" />
+		<Project filename="testSTLIterTemplate/testSTLIterTemplate.cbp" />
+		<Project filename="testSTLALgFind/testSTLALgFind.cbp" />
+		<Project filename="testSTLAlgForeach/testSTLAlgForeach.cbp" />
+		<Project filename="testSTLCountIf/testSTLCountIf.cbp" />
+		<Project filename="testSTLAlgReplace/testSTLAlgReplace.cbp" />
+		<Project filename="testSTLAlgRemove/testSTLAlgRemove.cbp" />
+		<Project filename="testSTLAlgSort01/testSTLAlgSort01.cbp" />
+		<Project filename="testSTLAlgSort02/testSTLAlgSort02.cbp" />
+		<Project filename="testSTLAlgSortHeap/testSTLAlgSortHeap.cbp" />
+		<Project filename="testSTLAlgBiSearch/testSTLAlgBiSearch.cbp" />
+		<Project filename="testSTLAlgSetIntersection/testSTLAlgSetIntersection.cbp" />
+		<Project filename="testSTLAlgMaxElement/testSTLAlgMaxElement.cbp" />
+		<Project filename="testSTLAlgFunObj01/testSTLAlgFunObj01.cbp" />
+		<Project filename="testSTLAlgFunObj02/testSTLAlgFunObj02.cbp" />
+		<Project filename="testSTLAlgFunObj03/testSTLAlgFunObj03.cbp" />
+		<Project filename="testSTLAlgFunObjPlus/testSTLAlgFunObjPlus.cbp" />
+		<Project filename="testSTLAlgFunObjGreater/testSTLAlgFunObjGreater.cbp" />
+		<Project filename="testSTLAlgFunObjLogicalNot/testSTLAlgFunObjLogicalNot.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\administrator\desktop\testcpp\testctordtor\main.cpp
+	<iostream>
+
+1496284843 source:z:\testcpp\chap05\03testctordtor\main.cpp
+	<iostream>
+	"derived.h"
+
+1496284801 z:\testcpp\chap05\03testctordtor\derived.h
+	"memobj.h"
+	"base.h"
+
+1496284671 z:\testcpp\chap05\03testctordtor\memobj.h
+	<iostream>
+
+1496284801 z:\testcpp\chap05\03testctordtor\base.h
+	"memobj.h"
+

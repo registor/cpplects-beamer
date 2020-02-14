@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1429150478 source:c:\users\administrator\desktop\testcpp\shapeclass\main.cpp
+	<Graph2D.h>
+	"Shape.h"
+	"Rectangle.h"
+	"Ellipse.h"
+	"Donet.h"
+
+1496279833 c:\users\administrator\desktop\testcpp\shapeclass\shape.h
+	<Graph2D.h>
+	"Point2D.h"
+
+1429150413 c:\users\administrator\desktop\testcpp\shapeclass\point2d.h
+	<iostream>
+	<cmath>
+
+1496279287 c:\users\administrator\desktop\testcpp\shapeclass\rectangle.h
+	"Shape.h"
+
+1496279371 c:\users\administrator\desktop\testcpp\shapeclass\ellipse.h
+	"Shape.h"
+
+1496279356 c:\users\administrator\desktop\testcpp\shapeclass\donet.h
+	"Ellipse.h"
+
+1429150035 source:c:\users\administrator\desktop\testcpp\shapeclass\donet.cpp
+	"Donet.h"
+
+1496279371 source:c:\users\administrator\desktop\testcpp\shapeclass\ellipse.cpp
+	"Ellipse.h"
+
+1287678804 source:c:\users\administrator\desktop\testcpp\shapeclass\point2d.cpp
+	"Point2D.h"
+
+1496279371 source:c:\users\administrator\desktop\testcpp\shapeclass\rectangle.cpp
+	"Rectangle.h"
+
+1496279264 source:c:\users\administrator\desktop\testcpp\shapeclass\shape.cpp
+	"Shape.h"
+

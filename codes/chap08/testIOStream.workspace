@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="testcout01/testcout01.cbp" />
+		<Project filename="testIOFlag/testIOFlag.cbp" />
+		<Project filename="testFormat/testFormat.cbp" />
+		<Project filename="testFormat02/testFormat02.cbp" />
+		<Project filename="testGet/testGet.cbp" />
+		<Project filename="testGetline/testGetline.cbp" />
+		<Project filename="testGetline02/testGetline02.cbp" />
+		<Project filename="testTXTWrite/testTXTWrite.cbp" />
+		<Project filename="testTXTRead/testTXTRead.cbp" />
+		<Project filename="testFileMergin/testFileMergin.cbp" />
+		<Project filename="testFileMerginSort/testFileMerginSort.cbp" />
+		<Project filename="testbiFileWrite/testbiFileWrite.cbp" />
+		<Project filename="testBiFileRead/testBiFileRead.cbp" />
+		<Project filename="testImageReadWrite/testImageReadWrite.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

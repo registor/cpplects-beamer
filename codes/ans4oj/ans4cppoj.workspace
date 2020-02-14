@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="ex1376-getEarning/ex1376-getEarning.cbp" />
+		<Project filename="ex1377-reference/ex1377-reference.cbp" />
+		<Project filename="ex1378-defaultArg/ex1378-defaultArg.cbp" />
+		<Project filename="ex1379-classStatic/ex1379-classStatic.cbp" />
+		<Project filename="ex1380-classDeepCopy/ex1380-classDeepCopy.cbp" />
+		<Project filename="ex1381-classVirtualBase/ex1381-classVirtualBase.cbp" />
+		<Project filename="ex1382-classHasa/ex1382-classHasa.cbp" />
+		<Project filename="ex1383-classDerive-List/ex1383-classDerive-List.cbp" />
+		<Project filename="ex1383-classDeriveSTLlist/ex1383-classDeriveSTLlist.cbp" />
+		<Project filename="ex1383-classDeriveSTLstack-queue/ex1383-classDeriveSTLstack-queue.cbp" />
+		<Project filename="ex1384-abstracClassOperatorOveride/ex1384-abstracClassOperatorOveride.cbp" />
+		<Project filename="ex1385-virtualFunction/ex1385-virtualFunction.cbp" />
+		<Project filename="ex1386-operatorOveride/ex1386-operatorOveride.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

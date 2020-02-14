@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GlutBasic" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GlutBasic" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GlutBasic" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="$(#cppg2d.include)" />
+			<Add directory="$(#freeglut.include)" />
+		</Compiler>
+		<Linker>
+			<Add option="-lgdi32 -lopengl32 -lglu32 -lfreeglut -lgraph2d" />
+			<Add directory="$(#cppg2d.lib)" />
+			<Add directory="$(#cppg2d.bin)" />
+			<Add directory="$(#freeglut.lib)" />
+			<Add directory="$(#freeglut.bin)" />
+		</Linker>
+		<Unit filename="Donut.cpp" />
+		<Unit filename="Donut.h" />
+		<Unit filename="Ellipse.cpp" />
+		<Unit filename="Ellipse.h" />
+		<Unit filename="Point2D.cpp" />
+		<Unit filename="Point2D.h" />
+		<Unit filename="Rectangle.cpp" />
+		<Unit filename="Rectangle.h" />
+		<Unit filename="Shape.cpp" />
+		<Unit filename="Shape.h" />
+		<Unit filename="ShapeArr.cpp" />
+		<Unit filename="ShapeArr.h" />
+		<Unit filename="Triangle.cpp" />
+		<Unit filename="Triangle.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

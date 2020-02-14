@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1467102307 source:f:\testcpp\teststring\teststrreplace\main.cpp
+	<string>
+	<iostream>
+

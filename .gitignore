@@ -1,3 +1,107 @@
+# -*- mode: gitignore; -*-
+
+# ======emacs editor======
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# ======C programming======
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# ======Tex/LaTex======
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -10,6 +114,7 @@
 *.fot
 *.cb
 *.cb2
+*.atfi
 .*.lb
 
 ## Intermediate documents:
@@ -64,9 +169,6 @@ acs-*.bib
 # changes
 *.soc
 
-# comment
-*.cut
-
 # cprotect
 *.cpt
 
@@ -109,11 +211,6 @@ acs-*.bib
 *.glo
 *.gls
 *.glsdefs
-*.lzo
-*.lzs
-
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
-# *.ist
 
 # gnuplottex
 *-gnuplottex-*
@@ -141,14 +238,13 @@ acs-*.bib
 
 # listings
 *.lol
-
-# luatexja-ruby
-*.ltjruby
+*.listing
 
 # makeidx
 *.idx
 *.ilg
 *.ind
+*.ist
 
 # minitoc
 *.maf
@@ -161,6 +257,11 @@ acs-*.bib
 
 # minted
 _minted*
+./_minted-main/
+/_minted-main/*
+
+./_minted-cbook/
+/_minted-cbook/*
 *.pyg
 
 # morewrites
@@ -198,9 +299,6 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
-# tcolorbox
-*.listing
-
 # thmtools
 *.loe
 
@@ -212,15 +310,8 @@ pythontex-files-*/
 # todonotes
 *.tdo
 
-# vhistory
-*.hst
-*.ver
-
 # easy-todo
 *.lod
-
-# xcolor
-*.xcp
 
 # xmpincl
 *.xmpi
@@ -228,9 +319,8 @@ pythontex-files-*/
 # xindy
 *.xdy
 
-# xypic precompiled matrices and outlines
+# xypic precompiled matrices
 *.xyc
-*.xyd
 
 # endfloat
 *.ttt
@@ -253,14 +343,8 @@ TSWLatexianTemp*
 # Kile
 *.backup
 
-# gummi
-.*.swp
-
 # KBibTeX
 *~[0-9]*
-
-# TeXnicCenter
-*.tps
 
 # auto folder when using emacs and auctex
 ./auto/*
@@ -272,5 +356,4 @@ TSWLatexianTemp*
 # standalone packages
 *.sta
 
-# Makeindex log files
-*.lpz
+

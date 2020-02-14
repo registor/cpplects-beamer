@@ -1,0 +1,190 @@
+% 包含beamer宏包
+%\documentclass[t, xcolor=svgnames]{ctexbeamer}
+\documentclass[fontset = none, t, xcolor=svgnames, aspectratio=169]{ctexbeamer}
+% 草稿模式，加快编译速度\documentclass[draft,xcolor=svgnames]{beamer}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% 使用nwafusidebar主题
+% 载入主题
+\usetheme[
+%%% 外部主题选项
+%    hidetitle,           % 隐藏边栏中的短标题
+%    hideauthor,          % 隐藏边栏中的作者缩写
+%    hideinstitute,       % 隐藏边栏底部的单位缩写
+%    shownavsym,          % show the navigation symbols
+%    width=2.0cm,           % 边栏宽度 (默认是 2 cm)
+%    hideothersubsections,% 除了当前section的subsection隐藏其它所有 subsections
+%    hideallsubsections,  % 隐藏所有 subsections
+    left,               % 边栏位置 (默认在右边)
+%%% 颜色主题选项
+    %lightheaderbg       % 页眉背景颜色
+]{nwafusidebar}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% 选择编译章编号宏
+\newcount\chno
+\chno=0
+
+% 载入需要的宏包
+\input{settings/packages.tex}
+% 进行必要的设置
+\input{settings/format.tex}
+
+% 设置标题==================================================
+\title[\textsc{Object Oriented Programming}---OOP] % (可选，仅当标题过长时使用)
+{面向对象程序设计}
+
+\ifcase\chno\relax
+% 第0章
+\subtitle[简介] % (可选，仅当标题过长时使用)
+{课程简介}
+\or % 第1章
+\subtitle[基础知识] % (可选，仅当标题过长时使用)
+{基础知识}
+\or % 第2章
+\subtitle[C/C++基础] % (可选，仅当标题过长时使用)
+{C/C++程序设计基础}
+\or % 第3章
+\subtitle[类和对象] % (可选，仅当标题过长时使用)
+{类和对象}
+\or % 第4章
+\subtitle[运算符重裁] % (可选，仅当标题过长时使用)
+{运算符重载}
+\or % 第5章
+\subtitle[组合与继承] % (可选，仅当标题过长时使用)
+{组合与继承}
+\or % 第6章
+\subtitle[虚函数] % (可选，仅当标题过长时使用)
+{虚函数}
+\or % 第7章
+\subtitle[类模板与STL] % (可选，仅当标题过长时使用)
+{类模板与STL}
+\or % 第8章
+\subtitle[输入/输出流] % (可选，仅当标题过长时使用)
+{输入/输出流}
+\or % 第9章
+\subtitle[string类] % (可选，仅当标题过长时使用)
+{string字符串类}
+\or % 第10章
+\subtitle[异常处理] % (可选，仅当标题过长时使用)
+{C++的异常处理}
+\fi
+
+% % \subtitle[简介] % (可选，仅当标题过长时使用)
+% % {课程简介}
+% % \subtitle[基础知识] % (可选，仅当标题过长时使用)
+% % {基础知识}
+% % \subtitle[C/C++基础] % (可选，仅当标题过长时使用)
+% % {C/C++程序设计基础}
+% % \subtitle[类和对象] % (可选，仅当标题过长时使用)
+% % {类和对象}
+% % \subtitle[运算符重裁] % (可选，仅当标题过长时使用)
+% % {运算符重载}
+% % \subtitle[组合与继承] % (可选，仅当标题过长时使用)
+% % {组合与继承}
+% % \subtitle[虚函数] % (可选，仅当标题过长时使用)
+% % {虚函数}
+% % \subtitle[类模板与STL] % (可选，仅当标题过长时使用)
+% % {类模板与STL}
+% % \subtitle[输入/输出流] % (可选，仅当标题过长时使用)
+% % {输入/输出流}
+% % \subtitle[string类] % (可选，仅当标题过长时使用)
+% % {string字符串类}
+% \subtitle[异常处理] % (可选，仅当标题过长时使用)
+% {C++的异常处理}
+
+\author[Nine, G.] % (可选，仅当有多个作者时使用)
+{
+  耿楠
+}
+
+\institute[
+{\includegraphics[scale=0.015]{nwafulogo/nwafu_logo_cie}}\\ %插入学院 logo
+CS of CIE, NWSUAF\\
+Yangling, China ] % 可选项，在每页边栏的底部显示
+{% 显示在标题页
+  \cs \\
+  \cie
+  %西北农林科技大学\\
+  %中国$\boldsymbol{\cdot}$杨凌
+  
+  % 在此要有一个空行，否则会在大学和国家之间产生额外的空白(I do not
+  % 不知道为什么;( )
+}
+
+\date{\tosemester}
+
+% 打开PDF后直接全屏
+% \hypersetup{pdfpagemode={FullScreen}}
+% ==================================================
+
+% 设定仅编译的帧，加快编译速度
+%\includeonlyframes{testframe}
+
+% 定义章选择命令
+\newcommand\seledchap[1]{%
+  \ifcase#1\relax
+  %\or
+    \include{data/ch00} % 绪论
+  \or % 第1章
+    \include{data/ch01} % 基础知识
+  \or % 第2章
+    \include{data/ch02} % 算法
+  \or % 第3章
+    \include{data/ch03} % 输入/输出
+  \or % 第4章
+    \include{data/ch04} % 数据类型
+  \or % 第5章
+    \include{data/ch05} % 运算符和表达式
+  \or % 第6章
+    \include{data/ch06} % 函数
+  \or % 第7章
+    \include{data/ch07} % 控制结构
+  \or % 第8章
+    \include{data/ch08} % 数组
+  \or % 第9章
+    \include{data/ch09} % 字符串
+  \or % 第10章
+    \include{data/ch10} % 结构体
+  \or % 第11章
+    \include{data/ch11} % 文件
+  \or % 第12章
+    \include{data/ch12} % 位运算及底层程序设计
+  \fi
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 标题页
+{\nwafuwavesbg%
+  \begin{frame}[plain,noframenumbering] % plain选项移除标题页的边栏和页眉
+    \initclock % 启动时钟，若不需要，则注释该行
+    \titlepage
+  \end{frame}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\seledchap{\chno}
+% \include{data/ch00}
+% \include{data/ch01}
+% \include{data/ch02}
+% \include{data/ch03}
+% \include{data/ch04}
+% \include{data/ch05}
+% \include{data/ch06}
+% \include{data/ch07}
+% \include{data/ch08}
+% \include{data/ch09}
+% \include{data/ch10}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 封底页
+{\nwafuwavesbg
+  \begin{frame}[plain,noframenumbering]
+    \finalpage{本讲结束，谢谢!\\欢迎多提宝贵意见和建议}
+  \end{frame}}
+%%%%%%%%%%%%%%%%
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

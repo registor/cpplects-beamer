@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1496288224 source:c:\users\administrator\desktop\testcpp\multibasepegasus\animal.cpp
+	<iostream>
+	<cstring>
+	"Animal.h"
+
+1496287770 c:\users\administrator\desktop\testcpp\multibasepegasus\animal.h
+
+1496288251 source:c:\users\administrator\desktop\testcpp\multibasepegasus\bird.cpp
+	<iostream>
+	"Bird.h"
+
+1496288237 c:\users\administrator\desktop\testcpp\multibasepegasus\bird.h
+	"Animal.h"
+
+1496288271 source:c:\users\administrator\desktop\testcpp\multibasepegasus\horse.cpp
+	<iostream>
+	"Horse.h"
+
+1496288260 c:\users\administrator\desktop\testcpp\multibasepegasus\horse.h
+	"Animal.h"
+
+1496288205 source:c:\users\administrator\desktop\testcpp\multibasepegasus\main.cpp
+	"Animal.h"
+	"Horse.h"
+	"Bird.h"
+	"Pegasus.h"
+
+1496288124 c:\users\administrator\desktop\testcpp\multibasepegasus\pegasus.h
+	"Horse.h"
+	"Bird.h"
+

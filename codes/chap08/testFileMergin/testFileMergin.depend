@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1467100724 source:f:\testcpp\testiostream\testfilemergin\main.cpp
+	<iostream>
+	<string>
+	<list>
+

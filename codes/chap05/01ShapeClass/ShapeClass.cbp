@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ShapeClass" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ShapeClass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="$(#cppg2d.include)" />
+					<Add directory="$(#freeglut.include)" />
+				</Compiler>
+				<Linker>
+					<Add option="-lGraph2D  -lopengl32 -lglu32 -lfreeglut -lgdi32" />
+					<Add directory="$(#cppg2d.lib)" />
+					<Add directory="$(#cppg2d.bin)" />
+					<Add directory="$(#freeglut.lib)" />
+					<Add directory="$(#freeglut.bin)" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ShapeClass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-O2" />
+					<Add directory="$(#cppg2d.include)" />
+					<Add directory="$(#freeglut.include)" />
+				</Compiler>
+				<Linker>
+					<Add option="-lGraph2D  -lopengl32 -lglu32 -lfreeglut -lgdi32" />
+					<Add option="-s" />
+					<Add directory="$(#cppg2d.lib)" />
+					<Add directory="$(#cppg2d.bin)" />
+					<Add directory="$(#freeglut.lib)" />
+					<Add directory="$(#freeglut.bin)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="$(#cppg2d.include)" />
+			<Add directory="$(#freeglut.include)" />
+		</Compiler>
+		<Linker>
+			<Add directory="$(#cppg2d.lib)" />
+			<Add directory="$(#cppg2d.bin)" />
+			<Add directory="$(#freeglut.lib)" />
+			<Add directory="$(#freeglut.bin)" />
+		</Linker>
+		<Unit filename="Donet.cpp" />
+		<Unit filename="Donet.h" />
+		<Unit filename="Ellipse.cpp" />
+		<Unit filename="Ellipse.h" />
+		<Unit filename="Point2D.cpp" />
+		<Unit filename="Point2D.h" />
+		<Unit filename="Rectangle.cpp" />
+		<Unit filename="Rectangle.h" />
+		<Unit filename="Shape.cpp" />
+		<Unit filename="Shape.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

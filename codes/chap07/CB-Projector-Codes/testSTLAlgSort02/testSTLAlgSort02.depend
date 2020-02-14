@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1497238306 source:/home/registor/Desktop/testCPP/Lect07-CalssTemplate-STL/testSTLAlgSort02/main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+

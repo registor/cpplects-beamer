@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1467103456 source:f:\testcpp\testexception\testfileexception\main.cpp
+	<iostream>
+	<fstream>
+

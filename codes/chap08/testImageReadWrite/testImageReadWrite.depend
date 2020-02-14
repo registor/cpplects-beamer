@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1467101619 source:f:\testcpp\testiostream\testimagereadwrite\main.cpp
+	<iostream>
+	<fstream>
+

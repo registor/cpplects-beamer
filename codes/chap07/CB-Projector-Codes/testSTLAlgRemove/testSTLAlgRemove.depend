@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1497238121 source:/home/registor/Desktop/testCPP/Lect07-CalssTemplate-STL/testSTLAlgRemove/main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+
