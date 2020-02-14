@@ -23,9 +23,9 @@ Happy LaTeX！~
 ---------------------
 
 1. 排版样例
-![](./screenshot/01withclock2.png)
-![](./screenshot/02tikzfig2.png)
-![](./screenshot/03UML2.png)
+![](./screenshots/01withclock2.png)
+![](./screenshots/02tikzfig2.png)
+![](./screenshots/03UML2.png)
 
 2. 更多样例请查看"./demos"。
 
