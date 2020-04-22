@@ -48,8 +48,8 @@
   BoldItalicFont  = * Normal,
   RawFeature      = +fwid]  
 \setCJKmonofont{Sarasa Mono SC}[% 中文等宽字体，Sarasa Mono SC
-  UprightFont     = * Medium,
-  BoldFont        = * Medium,
+  UprightFont     = * Semibold,
+  BoldFont        = * Semibold,
   ItalicFont      = * Extralight,
   BoldItalicFont  = * Light,
   RawFeature      = +fwid]
@@ -188,7 +188,7 @@
 \setminted{fontsize=\tiny, breaklines=true, breakautoindent=false}
 % 行间代码自定义环境
 \newminted{cpp}{bgcolor=\cppfillcolor,autogobble,frame=lines}
-\newminted[cpptt]{cpp}{autogobble,mathescape,frame=lines,escapeinside=||}
+\newminted[cpptt]{cpp}{bgcolor=\cppfillcolor,autogobble,mathescape,frame=lines,escapeinside=||}
 %\newminted[asmtt]{nasm}{bgcolor=\cppfillcolor,autogobble,mathescape,fontsize=\tiny,frame=lines,escapeinside=||}
 \newminted[cppttnobg]{cpp}{autogobble,mathescape,frame=lines,escapeinside=||}
 
